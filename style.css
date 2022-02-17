@@ -1,0 +1,117 @@
+/*
+navbar: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+*/
+
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: -30px;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    left: 100px;
+    top: 90px;
+}
+
+.picture2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 400px;
+    top: 90px;
+    width: 30%;
+    height: auto;
+}
+
+.explore a {
+    float: right;
+    color: white;
+    text-align: center;
+    font-size: 37px;
+    position: fixed;
+    left: 650px;
+    top: 600px;
+
+}
+
+p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: fixed;
+    margin-left: 20px;
+    top: 200px;
+    width: 40%;
+}
+
+ul {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 10px 15px;
+    width: 460px;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 220px;
+    margin-right: auto;
+    margin-top: -55px;
+}
